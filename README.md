@@ -6,46 +6,46 @@
 
 [![Screenshot](https://github.com/xeokit/xeokit-bim-viewer/raw/master/images/xeokit-bim-viewer.png)](https://xeokit.github.io/xeokit-bim-viewer/app/index.html?projectId=OTCConferenceCenter&tab=storeys)
 
-* [Run demo](https://xeokit.github.io/xeokit-bim-viewer/app/index.html?projectId=OTCConferenceCenter&tab=storeys)
+* [Chạy demo](https://xeokit.github.io/xeokit-bim-viewer/app/index.html?projectId=OTCConferenceCenter&tab=storeys)
 
 ---
-If you are interested in a **ready-to-use 3D/BIM Viewing Ecosystem for Your Own Solution**, be sure to also check out:
-* [xeoVision - view your models now!](https://xeo.vision/)
+Nếu bạn quan tâm đến **Hệ sinh thái xem BIM/3D sẵn sàng sử dụng cho Giải pháp của riêng bạn**, hãy xem thêm:
+* [xeoVision - xem mô hình của bạn ngay bây giờ!](https://xeo.vision/)
 * [xeoServices](https://docs.xeo.vision/)
 ---
 
-**[xeokit-bim-viewer](https://github.com/xeokit/xeokit-bim-viewer)** is an open source 2D/3D BIM viewer that runs in the
-browser and loads models from your file system.
+**[xeokit-bim-viewer](https://github.com/xeokit/xeokit-bim-viewer)** là trình xem BIM 2D/3D mã nguồn mở chạy trên
+trình duyệt và tải mô hình từ hệ thống tệp của bạn.
 
-The viewer is built on **[xeokit](http://xeokit.io)**, and is bundled as part of the **[xeokit SDK](http://xeokit.io)**.
+Trình xem được xây dựng trên **[xeokit](http://xeokit.io)**, và được đóng gói như một phần của **[xeokit SDK](http://xeokit.io)**.
 
-The viewer is developed by [xeolabs](http://xeolabs.com) and [OpenProject](https://www.openproject.org/), and is currently supported by [Creoox AG](https://creoox.com/).
-It is integrated within [OpenProject BIM 10.4](https://www.openproject.org/openproject-bim-10-4/) and later.
+Trình xem được phát triển bởi [xeolabs](http://xeolabs.com) và [OpenProject](https://www.openproject.org/), và hiện được hỗ trợ bởi [Creoox AG](https://creoox.com/).
+Nó được tích hợp trong [OpenProject BIM 10.4](https://www.openproject.org/openproject-bim-10-4/) và các phiên bản mới hơn.
 
-The viewer can be used as a stand-alone JavaScript application. In combination with open source CLI model conversion
-tools, it represents a low-cost, high-performance way to get your IFC models on the Web, that allows you the freedom to
-convert and host your models on your own server or GitHub repository. For the most robust and performing IFC conversion we recommend
-checking out [IFC -> binary glTF (GLB) cxConverter](https://github.com/Creoox/creoox-ifc2gltfcxconverter/releases).
+Trình xem có thể được sử dụng như một ứng dụng JavaScript độc lập. Kết hợp với các công cụ chuyển đổi mô hình CLI mã nguồn mở,
+nó đại diện cho một cách chi phí thấp, hiệu suất cao để đưa các mô hình IFC của bạn lên Web, cho phép bạn tự do
+chuyển đổi và lưu trữ mô hình trên máy chủ hoặc kho lưu trữ GitHub của riêng bạn. Để chuyển đổi IFC mạnh mẽ và hiệu quả nhất, chúng tôi khuyên bạn nên
+xem [IFC -> binary glTF (GLB) cxConverter](https://github.com/Creoox/creoox-ifc2gltfcxconverter/releases).
 
-## 📜 Licensing & Commercial Use
+## 📜 Giấy phép & Sử dụng Thương mại
 
-xeokit SDK is licensed under **AGPLv3**, which requires that any modifications or integrations of xeokit SDK into a project must also be open-sourced under AGPLv3.
+xeokit SDK được cấp phép theo **AGPLv3**, yêu cầu mọi sửa đổi hoặc tích hợp xeokit SDK vào dự án cũng phải được mã nguồn mở theo AGPLv3.
 
-🪧 **Need a commercial license?** If your company requires xeokit SDK under a different licensing model for **proprietary or closed-source** applications, we offer **flexible commercial licensing options**.
+🪧 **Cần giấy phép thương mại?** Nếu công ty của bạn yêu cầu xeokit SDK theo mô hình cấp phép khác cho các ứng dụng **độc quyền hoặc mã nguồn đóng**, chúng tôi cung cấp **các tùy chọn cấp phép thương mại linh hoạt**.
 
-📩 **Contact us** at [contact@creoox.com](mailto:contact@creoox.com) or visit [xeokit.io](https://xeokit.io/index.html#pricing) for more information.
+📩 **Liên hệ với chúng tôi** tại [contact@creoox.com](mailto:contact@creoox.com) hoặc truy cập [xeokit.io](https://xeokit.io/index.html#pricing) để biết thêm thông tin.
 ---
 
-## Usage
+## Cách sử dụng
 
-To view your models with this viewer:
+Để xem mô hình của bạn với trình xem này:
 
-**Method 1**
+**Phương pháp 1**
 
-1. Fork the [xeokit-bim-viewer](https://github.com/xeokit/xeokit-bim-viewer) repository on GitHub.
-1. Convert your IFC STEP files using [open source CLI tools](https://www.notion.so/xeokit/Viewing-an-IFC-Model-with-xeokit-c373e48bc4094ff5b6e5c5700ff580ee).
-3. Add your converted models to your fork's data directory.
-4. Serve your fork using [GitHub Pages](https://pages.github.com/).
+1. Fork kho lưu trữ [xeokit-bim-viewer](https://github.com/xeokit/xeokit-bim-viewer) trên GitHub.
+1. Chuyển đổi các tệp IFC STEP của bạn bằng [công cụ CLI mã nguồn mở](https://www.notion.so/xeokit/Viewing-an-IFC-Model-with-xeokit-c373e48bc4094ff5b6e5c5700ff580ee).
+3. Thêm các mô hình đã chuyển đổi vào thư mục data của fork.
+4. Phục vụ fork của bạn bằng [GitHub Pages](https://pages.github.com/).
 
 Then users can view your models in their browsers, with URLs like this:
 
@@ -54,10 +54,10 @@ Then users can view your models in their browsers, with URLs like this:
 Remember to add the `projectId` parameter to your URL as in the example:
 `https://user.github.io/xeokit-bim-viewer/app/index.html?projectId=<your projectID here>`
 
-**Method 2**
+**Phương pháp 2**
 
-1. Install NodeJS from https://nodejs.org/en
-2. Clone or fork this repository and install required dependencies
+1. Cài đặt NodeJS từ https://nodejs.org/en
+2. Clone hoặc fork kho lưu trữ này và cài đặt các phụ thuộc cần thiết
 
 ```bash
 git clone https://github.com/xeokit/xeokit-bim-viewer
@@ -65,25 +65,25 @@ cd xeokit-bim-viewer
 npm install
 ```
 
-3. Add your converted models to `data` directory.
-4. Serve viewer in your local machine using:
+3. Thêm các mô hình đã chuyển đổi vào thư mục `data`.
+4. Chạy trình xem trên máy cục bộ của bạn bằng:
 
 ```bash
 npm run serve
 ```
 
-5. Go to `http://localhost:8080/app/index.html?projectId=<your projectID here>`
+5. Truy cập `http://localhost:8080/app/index.html?projectId=<ID dự án của bạn>`
 
-## Version compatibility with xeokit-sdk
+## Tương thích phiên bản với xeokit-sdk
 
-Starting with version 2.6.0, releases of xeokit-bim-viewer have been aligned with xeokit-sdk by matching their major and minor version numbers.
-This means that for any xeokit-sdk release with version 2.6.x, the corresponding xeokit-bim-viewer release will follow the 2.6.y numbering.
-Please note that the patch version numbers between the two projects are managed independently. For instance, xeokit-bim-viewer 2.6.0 is built on xeokit-sdk 2.6.67.
+Bắt đầu từ phiên bản 2.6.0, các bản phát hành của xeokit-bim-viewer đã được căn chỉnh với xeokit-sdk bằng cách khớp số phiên bản chính và phụ của chúng.
+Điều này có nghĩa là đối với bất kỳ bản phát hành xeokit-sdk nào có phiên bản 2.6.x, bản phát hành xeokit-bim-viewer tương ứng sẽ tuân theo số 2.6.y.
+Lưu ý rằng các số phiên bản vá giữa hai dự án được quản lý độc lập. Ví dụ, xeokit-bim-viewer 2.6.0 được xây dựng trên xeokit-sdk 2.6.67.
 
 
-## Next steps
+## Các bước tiếp theo
 
-Read the documentation below to get started.
+Đọc tài liệu bên dưới để bắt đầu.
 
 ---
 
@@ -131,28 +131,28 @@ Read the documentation below to get started.
 
 ---
 
-# Features
+# Tính năng
 
-* Uses [xeokit](https://xeokit.io) for efficient model loading and rendering.
-* Works in all major browsers, including mobile.
-* Can load models from the file system.
-* Loads multiple models.
-* Saves and loads BCF viewpoints.
-* 3D and 2D viewing modes.
-* Interactively X-ray, highlight, show, hide and section objects.
-* Tree views of structure, layers and storeys.
-* Full-precision geometry.
-* Point clouds.
-* Supports IFC2x3 and IFC4.
-* Customize viewer appearance with your own CSS.
-* Localization support.
-* JavaScript programming API for all viewer functions.
+* Sử dụng [xeokit](https://xeokit.io) để tải và hiển thị mô hình hiệu quả.
+* Hoạt động trên tất cả các trình duyệt chính, bao gồm cả mobile.
+* Có thể tải mô hình từ hệ thống tệp.
+* Tải nhiều mô hình.
+* Lưu và tải các điểm nhìn BCF.
+* Chế độ xem 3D và 2D.
+* Tương tác xuyên thấu, làm nổi bật, hiển thị, ẩn và cắt các đối tượng.
+* Chế độ xem cây của cấu trúc, lớp và tầng.
+* Hình học độ chính xác đầy đủ.
+* Đám mây điểm.
+* Hỗ trợ IFC2x3 và IFC4.
+* Tùy chỉnh giao diện trình xem bằng CSS của riêng bạn.
+* Hỗ trợ địa phương hóa.
+* API lập trình JavaScript cho tất cả các chức năng của trình xem.
 
-# Demos
+# Demo
 
-Click the links below to run some demos.
+Nhấp vào các liên kết bên dưới để chạy một số demo.
 
-| Live Demo | Model Source |
+| Demo Trực tiếp | Nguồn Mô hình |
 |---|---|
 | [Double-Precision Model](https://xeokit.github.io/xeokit-bim-viewer/app/index.html?projectId=MAP) | [BIMData](https://bimdata.io) |
 | [Point Cloud](https://xeokit.github.io/xeokit-bim-viewer/app/index.html?projectId=MAPPointCloud)| [BIMData](https://bimdata.io) |
@@ -165,43 +165,43 @@ Click the links below to run some demos.
 | [Schependomlaan Ground Floor](https://xeokit.github.io/xeokit-bim-viewer/app/index.html?projectId=Schependomlaan_selectedStorey&tab=storeys)| [Details](https://github.com/openBIMstandards/DataSetSchependomlaan) |
 | [Duplex](https://xeokit.github.io/xeokit-bim-viewer/app/index.html?projectId=Duplex&tab=storeys)| [Details](http://openifcmodel.cs.auckland.ac.nz/Model/Details/274) |
 
-# License
+# Giấy phép
 
-xeokit-bim-viewer is bundled within the [xeokit SDK](http://xeokit.io), which is licensed under the AGPL3. See
-our [Pricing](https://xeokit.io/index.html#pricing) page for custom licensing options.
+xeokit-bim-viewer được đóng gói trong [xeokit SDK](http://xeokit.io), được cấp phép theo AGPL3. Xem
+trang [Giá](https://xeokit.io/index.html#pricing) của chúng tôi để biết các tùy chọn giấy phép tùy chỉnh.
 
-# The Viewer Application
+# Ứng dụng Trình xem
 
-The [````./app/index.html````](https://github.com/xeokit/xeokit-bim-viewer/tree/master/app/index.html) page provides a
-ready-to-use instance of xeokit-bim-viewer. We'll just call it *viewer* from now on.
+Trang [````./app/index.html````](https://github.com/xeokit/xeokit-bim-viewer/tree/master/app/index.html) cung cấp một
+phát tạo sẵn sàng sử dụng của xeokit-bim-viewer. Từ bây giờ chúng ta sẽ gọi nó là *trình xem*.
 
-The viewer loads projects and models from
-the [````./app/data/projects````](https://github.com/xeokit/xeokit-bim-viewer/tree/master/app/data/projects) directory.
+Trình xem tải các dự án và mô hình từ
+thư mục [````./app/data/projects````](https://github.com/xeokit/xeokit-bim-viewer/tree/master/app/data/projects).
 
-To view a project, load the viewer with the project's ID on the URL:
+Để xem một dự án, tải trình xem với ID của dự án trên URL:
 
 [````https://xeokit.github.io/xeokit-bim-viewer/app/index.html?projectId=WestRiversideHospital````](https://xeokit.github.io/xeokit-bim-viewer/app/index.html?projectId=WestRiversideHospital)
 
-# Model Database
+# Cơ sở dữ liệu Mô hình
 
-> **This section shows how to add your own models to the viewer application. These instructions rely on the most
-> recent versions of XKT (V8 or later) and the conversion tools, which you can learn about
-in  *[Viewing an IFC Model with xeokit](https://www.notion.so/xeokit/Viewing-an-IFC-Model-with-xeokit-c373e48bc4094ff5b6e5c5700ff580ee)*
+> **Phần này hướng dẫn cách thêm mô hình của riêng bạn vào ứng dụng trình xem. Các hướng dẫn này dựa trên các
+> phiên bản gần đây nhất của XKT (V8 trở lên) và các công cụ chuyển đổi, mà bạn có thể tìm hiểu trong
+*[Xem Mô hình IFC với xeokit](https://www.notion.so/xeokit/Viewing-an-IFC-Model-with-xeokit-c373e48bc4094ff5b6e5c5700ff580ee)*
 .**
 
-Let's examine the structure of
-the [````./app/data/projects````](https://github.com/xeokit/xeokit-bim-viewer/tree/master/app/data) directory, where the
-viewer keeps its projects and models.
+Hãy kiểm tra cấu trúc của
+thư mục [````./app/data/projects````](https://github.com/xeokit/xeokit-bim-viewer/tree/master/app/data), nơi
+trình xem lưu trữ các dự án và mô hình của nó.
 
-Shown below is a portion of the ````./app/data/projects```` directory. We'll describe it from the root directory
-downwards.
+Bên dưới là một phần của thư mục ````./app/data/projects````. Chúng ta sẽ mô tả nó từ thư mục gốc
+xuống dưới.
 
-Within the root, we have a directory for each project, along with a manifest of the projects in ````index.json````.
+Trong thư mục gốc, chúng ta có một thư mục cho mỗi dự án, cùng với bản khai báo các dự án trong ````index.json````.
 
-Within a project directory, we have a directory for each model in the project, along with a manifest of the models
-in ````index.json````.
+Trong thư mục dự án, chúng ta có một thư mục cho mỗi mô hình trong dự án, cùng với bản khai báo các mô hình
+trong ````index.json````.
 
-Within a model directory, we have the ````.XKT```` file which contains the model's geometry and metadata.
+Trong thư mục mô hình, chúng ta có tệp ````.XKT```` chứa hình học và metadata của mô hình.
 
 ````
 .app/data/projects
@@ -249,10 +249,10 @@ Within this file, the ````id```` of each project matches the name of that projec
 }
 ````
 
-The ````index.json```` for the "WestRiversideHospital" project is shown below.
+Tệp ````index.json```` cho dự án "WestRiversideHospital" được hiển thị bên dưới.
 
-Within this file, the ````id```` of each model matches the name of that model's subdirectory. Each model's ````name````
-is the human-readable name that's displayed in the viewers Models tab.
+Trong tệp này, ````id```` của mỗi mô hình khớp với tên thư mục con của mô hình đó. ````name```` của mỗi mô hình
+là tên dễ đọc được hiển thị trong tab Mô hình của trình xem.
 
 ````json
 {
@@ -292,35 +292,35 @@ is the human-readable name that's displayed in the viewers Models tab.
 }
 ````
 
-The optional ````viewerConfigs```` section specifies configurations for the viewer to set on itself as it loads the
-project. See the complete list of available viewer configurations in [Viewer Configurations](#viewer-configurations).
+Phần ````viewerConfigs```` tùy chọn chỉ định các cấu hình cho trình xem đặt cho chính nó khi tải
+dự án. Xem danh sách đầy đủ các cấu hình trình xem có sẵn trong [Cấu hình Trình xem](#viewer-configurations).
 
-The optional ````viewerContent```` array specifies IDs of models that the viewer will load initially, right after it's
-applied the configurations.
+Mảng ````viewerContent```` tùy chọn chỉ định các ID của mô hình mà trình xem sẽ tải ban đầu, ngay sau khi
+áp dụng các cấu hình.
 
-The optional ````viewerState```` section specifies how the viewer should set up the initial state of its UI, right after
-its loaded the initial models. See the complete list of available viewer states in [Viewer States](#viewer-states).
+Phần ````viewerState```` tùy chọn chỉ định cách trình xem nên thiết lập trạng thái ban đầu của giao diện, ngay sau khi
+đã tải các mô hình ban đầu. Xem danh sách đầy đủ các trạng thái trình xem có sẵn trong [Trạng thái Trình xem](#viewer-states).
 
-The ````geometry.xkt```` file for each model is created from an IFC file using open source CLI tools. Learn how to
-create those files
-in *[Viewing an IFC Model with xeokit](https://www.notion.so/xeokit/Viewing-an-IFC-Model-with-xeokit-c373e48bc4094ff5b6e5c5700ff580ee)*
+Tệp ````geometry.xkt```` cho mỗi mô hình được tạo từ tệp IFC bằng các công cụ CLI mã nguồn mở. Tìm hiểu cách
+tạo những tệp đó trong
+*[Xem Mô hình IFC với xeokit](https://www.notion.so/xeokit/Viewing-an-IFC-Model-with-xeokit-c373e48bc4094ff5b6e5c5700ff580ee)*
 .
 
-# Viewer Configurations
+# Cấu hình Trình xem
 
-The table below lists the complete set of available configurations. Think of these as user preferences. These may be
-provided to the viewer within project info files, as described in [Model Database](#model-database), or set
-programmatically on the viewer
-with [````BIMViewer#setConfigs()````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/BIMViewer.js~BIMViewer.html#instance-method-setConfigs)
-, as described in [Configuring the Viewer](#configuring-the-viewer).
+Bảng bên dưới liệt kê tập hợp đầy đủ các cấu hình có sẵn. Hãy coi chúng như là tùy chọn của người dùng. Chúng có thể được
+cung cấp cho trình xem trong các tệp thông tin dự án, như mô tả trong [Cơ sở dữ liệu Mô hình](#model-database), hoặc đặt
+bằng lập trình trên trình xem
+với [````BIMViewer#setConfigs()````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/BIMViewer.js~BIMViewer.html#instance-method-setConfigs)
+, như mô tả trong [Cấu hình Trình xem](#configuring-the-viewer).
 
-| Property               | Type    | Range                  | Default Value         | Description                                                                                                                                                                                                                                                                                                    |
+| Thuộc tính               | Kiểu    | Phạm vi                  | Giá trị Mặc định         | Mô tả                                                                                                                                                                                                                                                                                                    |
 |:-----------------------|:--------|:-----------------------|:----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| "backgroundColor"      | Array   |                        | ````[1.0,1.0,1.0]```` | Canvas background color                                                                                                                                                                                                                                                                                        |
-| "cameraNear"           | Number  | ````[0.01-0.1]````     | ````0.05````          | Distance to the near clipping plane                                                                                                                                                                                                                                                                            |
-| "cameraFar"            | Number  | ````[1-100000000]````  | ````3000.0````        | Distance to the far clipping plane                                                                                                                                                                                                                                                                             |
-| "smartPivot"           | Boolean |                        | ````true````          | Enables a better pivot-orbiting experience when click-dragging on empty space in camera orbit mode.                                                                                                                                                                                                            |
-| "saoEnabled"           | Boolean |                        | ````true````          | Whether or not to enable Scalable Ambient Obscurance (SAO)                                                                                                                                                                                                                                                     |
+| "backgroundColor"      | Array   |                        | ````[1.0,1.0,1.0]```` | Màu nền canvas                                                                                                                                                                                                                                                                                        |
+| "cameraNear"           | Number  | ````[0.01-0.1]````     | ````0.05````          | Khoảng cách đến mặt phẳng cắt gần                                                                                                                                                                                                                                                                                            |
+| "cameraFar"            | Number  | ````[1-100000000]````  | ````3000.0````        | Khoảng cách đến mặt phẳng cắt xa                                                                                                                                                                                                                                                                                             |
+| "smartPivot"           | Boolean |                        | ````true````          | Bật trải nghiệm xoay quanh trục tốt hơn khi kéo chuột vào không gian trống ở chế độ xoay camera.                                                                                                                                                                                                            |
+| "saoEnabled"           | Boolean |                        | ````true````          | Bật hay tắt Scalable Ambient Obscurance (SAO)                                                                                                                                                                                                                                                     |
 | "saoBias"              | Number  | ````[0.0...10.0]````   | ````0.5````           | SAO bias                                                                                                                                                                                                                                                                                                       |
 | "saoIntensity"         | Number  | ````[0.0...200.0]````  | ````100.0````         | SAO intensity factor                                                                                                                                                                                                                                                                                           |
 | "saoScale"             | Number  | ````[0.0...1000.0]```` | ````500.0````         | SAO scale factor                                                                                                                                                                                                                                                                                               |
@@ -339,44 +339,44 @@ with [````BIMViewer#setConfigs()````](https://xeokit.github.io/xeokit-bim-viewer
 | "dtxEnabled"           | Boolean |                        | ````false````         | Whether to enable xeokit's data texture-based (DTX) scene representation and rendering mode. This has a lower memory footprint than the standard vertex buffer object-based (VBO) mode, and loads fast, but may be slower on low-spec GPUs.                                                                    |
 | "showSpaces"           | Boolean |                        | ````false````         | Whether to enable the visibility of IfcSpace elements. When this is ````false````, then even though we can instruct BIMViewer to make IfcSpaces visible in the tree view or context menus, they will remain invisible. This config is also dynamically controlled by the "Show IfcSpaces" tool in the toolbar. |
 
-## Viewer States
+## Trạng thái Trình xem
 
-In [Model Database](#model-database) we saw how a project can specify directives for how the viewer should set up the
-initial state of its UI, right after the project has loaded. The table below lists the available directives. These can
-also be set on the viewer
-using [````BIMViewer#setViewerState()````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/BIMViewer.js~BIMViewer.html#instance-method-setViewerState)
-. So far, we have:
+Trong [Cơ sở dữ liệu Mô hình](#model-database) chúng ta đã thấy cách một dự án có thể chỉ định hướng dẫn về cách trình xem nên thiết lập
+trạng thái ban đầu của giao diện, ngay sau khi dự án đã được tải. Bảng bên dưới liệt kê các hướng dẫn có sẵn. Chúng cũng có thể
+được đặt trên trình xem bằng cách sử dụng
+[````BIMViewer#setViewerState()````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/BIMViewer.js~BIMViewer.html#instance-method-setViewerState)
+. Hiện tại, chúng ta có:
 
-| Property              | Type              | Range                 | Default Value     | Description                      |
+| Thuộc tính              | Kiểu              | Phạm vi                 | Giá trị Mặc định     | Mô tả                      |
 |:----------------------|:------------------|:----------------------|:------------------|:----------------------------------|
-| "focusObject"         | String            |                       |                   | ID of object to focus on        |
-| "tabOpen"             | String            |  "objects", "classes" or "storeys"  |                   | Which explorer tab to open           |
-| "expandObjectsTree"   | Number            |  [0..*]               | 0                 | How deep to expand the "objects" tree |
-| "expandClassesTree"   | Number            |  [0..*]               | 0                 | How deep to expand the "classes" tree |
-| "expandStoreysTree"   | Number            |  [0..*]               | 0                 | How deep to expand the "storeys" tree |
-| "setCamera"           | { eye: Number[], look: Number[], up: Number[] } |  | 0        | Camera position |
+| "focusObject"         | String            |                       |                   | ID của đối tượng để làm nổi bật        |
+| "tabOpen"             | String            |  "objects", "classes" hoặc "storeys"  |                   | Tab khám phá nào sẽ mở           |
+| "expandObjectsTree"   | Number            |  [0..*]               | 0                 | Mở rộng cây "objects" sâu bao nhiêu |
+| "expandClassesTree"   | Number            |  [0..*]               | 0                 | Mở rộng cây "classes" sâu bao nhiêu |
+| "expandStoreysTree"   | Number            |  [0..*]               | 0                 | Mở rộng cây "storeys" sâu bao nhiêu |
+| "setCamera"           | { eye: Number[], look: Number[], up: Number[] } |  | 0        | Vị trí camera |
 
-# Deploying XKT V7 and Earlier
+# Triển khai XKT V7 và Cũ hơn
 
-> **This section describes how to deploy models that use older versions of XKT that don't combine geometry and metadata.
-For those older versions,
-> we need a little extra plumbing to deploy an additional JSON metadata file for each model.**
+> **Phần này mô tả cách triển khai các mô hình sử dụng các phiên bản XKT cũ hơn không kết hợp hình học và metadata.
+Đối với những phiên bản cũ hơn đó,
+> chúng ta cần một chút công việc bổ sung để triển khai một tệp JSON metadata bổ sung cho mỗi mô hình.**
 
-The previous section described how to deploy models that used XKT V8 and later. The XKT V8+ format combines geometry and
-metadata into the same XKT file, and was introduced in the
-[xeokit v1.9 release](https://www.notion.so/xeokit/What-s-New-in-xeokit-1-9-b7503ca7647e43e4b9c76e1505fa4484).
+Phần trước đã mô tả cách triển khai các mô hình sử dụng XKT V8 và mới hơn. Định dạng XKT V8+ kết hợp hình học và
+metadata vào cùng một tệp XKT, và được giới thiệu trong
+[bản phát hành xeokit v1.9](https://www.notion.so/xeokit/What-s-New-in-xeokit-1-9-b7503ca7647e43e4b9c76e1505fa4484).
 
-XKT versions prior to V8 only contained geometry, and needed to be accompanied by a JSON file that contained the model's
-IFC metadata. In this section, we'll describe how to deploy models that use XKT versions prior to V8.
+Các phiên bản XKT trước V8 chỉ chứa hình học, và cần được kèm theo một tệp JSON chứa
+metadata IFC của mô hình. Trong phần này, chúng ta sẽ mô tả cách triển khai các mô hình sử dụng các phiên bản XKT trước V8.
 
-Let's imagine that we want to deploy the Duplex and West Riverside Hospital projects, using XKT V7. For each model
-within our database, we'll deploy a ````geometry.xkt````, which is an XKT V7 file containing the model's geometry, and
-a ````metadata.json ````, containing IFC metadata for the model.
+Hãy tưởng tượng chúng ta muốn triển khai các dự án Duplex và West Riverside Hospital, sử dụng XKT V7. Đối với mỗi mô hình
+trong cơ sở dữ liệu của chúng ta, chúng ta sẽ triển khai một ````geometry.xkt````, đây là tệp XKT V7 chứa hình học của mô hình, và
+một ````metadata.json ````, chứa metadata IFC cho mô hình.
 
-We'll just assume that you've got those files already, and are not ready to convert their original IFC files into XKT
+Chúng ta sẽ giả định rằng bạn đã có những tệp đó rồi, và chưa sẵn sàng chuyển đổi các tệp IFC gốc của chúng thành XKT
 V8+.
 
-Here's our database files again, this time with XKT V7 and accompanying metadata files:
+Đây là các tệp cơ sở dữ liệu của chúng ta một lần nữa, lần này với XKT V7 và các tệp metadata kèm theo:
 
 ````
 .app/data/projects
@@ -450,25 +450,25 @@ new  ````externalMetadata: true```` configuration to the ````viewerConfigs```` i
 }
 ````
 
-# Support for Multi-Part (Split) Models
+# Hỗ trợ Mô hình Nhiều phần (Tách)
 
-Since xeokit-bim-viewer 2.4, we can deploy models that are split into multiple XKT files (with optional external JSON
-metadadata files).
+Kể từ xeokit-bim-viewer 2.4, chúng ta có thể triển khai các mô hình được chia thành nhiều tệp XKT (với các tệp JSON
+metadata bên ngoài tùy chọn).
 
-The `ifc2gltf` tool from Creoox, which converts IFC files into glTF geometry and JSON metadata files, has the option to
-split its output into multiple pairs of glTF and JSON files, accompanied by a JSON manifest that lists the files.
+Công cụ `ifc2gltf` từ Creoox, chuyển đổi các tệp IFC thành các tệp hình học glTF và metadata JSON, có tùy chọn
+chia đầu ra của nó thành nhiều cặp tệp glTF và JSON, kèm theo một bản khai báo JSON liệt kê các tệp.
 
-To integrate with that option, the `convert2xkt` tool, which converts glTF geometry and JSON metadata files into XKT
-files, also has the option to batch-convert the glTF+JSON files in the manifest, in one invocation.
+Để tích hợp với tùy chọn đó, công cụ `convert2xkt`, chuyển đổi các tệp hình học glTF và metadata JSON thành các tệp XKT,
+cũng có tùy chọn chuyển đổi hàng loạt các tệp glTF+JSON trong bản khai báo, trong một lần gọi.
 
-When we use this option, convert2xkt will output a bunch of XKT files, along with a JSON manifest file that lists those
-XKT files.
+Khi chúng ta sử dụng tùy chọn này, convert2xkt sẽ xuất ra một loạt các tệp XKT, cùng với một tệp bản khai báo JSON liệt kê những
+tệp XKT đó.
 
-This feature extends BIMViewer with the option to load models comprised of multiple XKT files, combining the XKT files into a single tree view for each model, and enabling the unloading of the model to unload all its XKT files in one shot. In other words, instead of having a separate model and tree view for each XKT, we can now group a bunch of XKT files together to behave as one model in BIMViewer.
+Tính năng này mở rộng BIMViewer với tùy chọn tải các mô hình gồm nhiều tệp XKT, kết hợp các tệp XKT vào một chế độ xem cây duy nhất cho mỗi mô hình, và cho phép bỏ tải mô hình để bỏ tải tất cả các tệp XKT của nó trong một lần. Nói cách khác, thay vì có một mô hình và chế độ xem cây riêng cho mỗi XKT, bây giờ chúng ta có thể nhóm một loạt các tệp XKT lại để hoạt động như một mô hình trong BIMViewer.
 
-Learn more about the conversion of IFC models into multiple XKT files in [this tutorial](https://www.notion.so/xeokit/Importing-Huge-IFC-Models-as-Multiple-XKT-Files-165fc022e94742cf966ee50003572259).
+Tìm hiểu thêm về việc chuyển đổi các mô hình IFC thành nhiều tệp XKT trong [hướng dẫn này](https://www.notion.so/xeokit/Importing-Huge-IFC-Models-as-Multiple-XKT-Files-165fc022e94742cf966ee50003572259).
 
-To show how to deploy one of these multi-XKT models in BIMViewer, let's examine the Karhumaki project.
+Để cho thấy cách triển khai một trong những mô hình multi-XKT này trong BIMViewer, hãy xem xét dự án Karhumaki.
 
 ---
 * [Load the Karhumaki Project in BIMViewer](https://xeokit.io/demo.html?projectId=Karhumaki)
@@ -498,7 +498,7 @@ To show how to deploy one of these multi-XKT models in BIMViewer, let's examine 
                       └── model_9.xkt
 ````
 
-The `manifest.json` XKT manifest looks like this:
+Tệp bản khai báo XKT `manifest.json` trông như sau:
 
 ````json
 {
@@ -517,13 +517,13 @@ The `manifest.json` XKT manifest looks like this:
 }
 ````
 
-The ````index.json```` for the "Karhumaki" project is shown below.
+Tệp ````index.json```` cho dự án "Karhumaki" được hiển thị bên dưới.
 
-Within this file, as usual, the ````id```` of each model matches the name of that model's subdirectory. Each model's ````name```` is the human-readable name that's displayed in the viewers Models tab.
+Trong tệp này, như thường lệ, ````id```` của mỗi mô hình khớp với tên thư mục con của mô hình đó. ````name```` của mỗi mô hình là tên dễ đọc được hiển thị trong tab Mô hình của trình xem.
 
-To indicate that the model is a multi-part model, with multiple XKTs, the model entry gets a ````manifest```` property containing the file name of our `manifest.json` file.
+Để chỉ ra rằng mô hình là mô hình nhiều phần, với nhiều XKT, mục mô hình nhận một thuộc tính ````manifest```` chứa tên tệp của tệp `manifest.json` của chúng ta.
 
-In `viewerContent`, we specify that our multipart model gets loaded immediately, as soon as the project is loaded.
+Trong `viewerContent`, chúng ta chỉ định rằng mô hình nhiều phần của chúng ta được tải ngay lập tức, ngay khi dự án được tải.
 
 ````json
 {
@@ -554,19 +554,19 @@ In `viewerContent`, we specify that our multipart model gets loaded immediately,
 }
 ````
 
-# Split Model with Separate Metadata Files
+# Mô hình Tách với Các Tệp Metadata Riêng
 
-In recent versions of xeokit, we combine the geometry and metadata into the XKT files, for simplicity within the pipeline, as we've done in the example above.
+Trong các phiên bản gần đây của xeokit, chúng ta kết hợp hình học và metadata vào các tệp XKT, để đơn giản trong quy trình, như chúng ta đã thực hiện trong ví dụ trên.
 
-In older versions of XKT, as mentioned above, we would have the metadata in separate JSON files, so that each XKT file would have the geometry, and would be accompanied by a JSON file containing its IFC metadata.
+Trong các phiên bản cũ hơn của XKT, như đã đề cập ở trên, chúng ta sẽ có metadata trong các tệp JSON riêng biệt, do đó mỗi tệp XKT sẽ có hình học, và sẽ được kèm theo một tệp JSON chứa metadata IFC của nó.
 
-BIMViewer, and the rest of the xeokit SDK, remains backwardly compatible with this XKT+JSON separation. The split-model loading feature also remains backwardly-compatible, as demonstrated in the "WestRiversideHospital_Combined" example project, described below.
+BIMViewer, và phần còn lại của xeokit SDK, vẫn tương thích ngược với việc tách XKT+JSON này. Tính năng tải mô hình tách cũng vẫn tương thích ngược, như được minh họa trong dự án ví dụ "WestRiversideHospital_Combined", được mô tả bên dưới.
 
 ---
 * [Load the WestRiversideHospital_Combined Project in BIMViewer](https://xeokit.io/demo.html?projectId=WestRiversideHospital_Combined)
 ---
 
-We have our separated XKT and JSON metadata files in the `models` directory:
+Chúng ta có các tệp XKT và metadata JSON tách rời trong thư mục `models`:
 
 ````
 .app/data/projects
@@ -596,7 +596,7 @@ We have our separated XKT and JSON metadata files in the `models` directory:
             └── structure.xkt
 ````
 
-The `manifest.json` XKT manifest looks as below. Notice the additional `metaModelFiles` property, which lists the JSON files that comprise the metamodel for the "WestRiversideHospital" model:
+Tệp bản khai báo XKT `manifest.json` trông như bên dưới. Lưu ý thuộc tính `metaModelFiles` bổ sung, liệt kê các tệp JSON bao gồm metamodel cho mô hình "WestRiversideHospital":
 
 ````
 {
@@ -621,13 +621,13 @@ The `manifest.json` XKT manifest looks as below. Notice the additional `metaMode
 }
 ````
 
-Finally, the ````index.json```` for the "WestRiversideHospital_Combined" project is shown below.
+Cuối cùng, ````index.json```` cho dự án "WestRiversideHospital_Combined" được hiển thị bên dưới.
 
-Within this file, as before, the ````id```` of each model matches the name of that model's subdirectory, and Each model's ````name```` is the human-readable name that's displayed in the viewers Models tab.
+Trong tệp này, như trước, ````id```` của mỗi mô hình khớp với tên thư mục con của mô hình đó, và ````name```` của mỗi mô hình là tên dễ đọc được hiển thị trong tab Mô hình của trình xem.
 
-As before, to indicate that the model is a multi-part model, with multiple XKTs, the model entry gets a ````manifest```` property containing the file name of our `manifest.json` file.
+Như trước, để chỉ ra rằng mô hình là mô hình nhiều phần, với nhiều XKT, mục mô hình nhận một thuộc tính ````manifest```` chứa tên tệp của tệp `manifest.json` của chúng ta.
 
-In `viewerContent`, we specify that our multipart model gets loaded immediately, as soon as the project is loaded.
+Trong `viewerContent`, chúng ta chỉ định rằng mô hình nhiều phần của chúng ta được tải ngay lập tức, ngay khi dự án được tải.
 
 ````json
 {
@@ -658,43 +658,43 @@ In `viewerContent`, we specify that our multipart model gets loaded immediately,
 }
 ````
 
-# Programming API
+# API Lập trình
 
-> **This section goes deeper into the viewer, describing how to instantiate a viewer, and how to use its JavaScript
-programming API.**
+> **Phần này đi sâu hơn vào trình xem, mô tả cách khởi tạo một trình xem và cách sử dụng API lập trình JavaScript
+của nó.**
 
-The viewer is implemented by the
+Trình xem được triển khai bởi lớp
 JavaScript [````BIMViewer````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/BIMViewer.js~BIMViewer.html)
-class, which provides a complete set of methods to programmatically control it.
+, cung cấp một tập hợp đầy đủ các phương thức để điều khiển nó bằng lập trình.
 
-Using these methods, we can:
+Sử dụng các phương thức này, chúng ta có thể:
 
-* create and configure a viewer,
-* query what models are available,
-* load projects and models,
-* interact with the 3D view,
-* save and load BCF viewpoints,
-* control the various viewer tools, and
-* drive the state of the viewer's UI.
+* tạo và cấu hình một trình xem,
+* truy vấn những mô hình nào có sẵn,
+* tải các dự án và mô hình,
+* tương tác với chế độ xem 3D,
+* lưu và tải các điểm nhìn BCF,
+* điều khiển các công cụ khác nhau của trình xem, và
+* điều khiển trạng thái giao diện của trình xem.
 
-## Creating a Viewer
+## Tạo một Trình xem
 
-In the example below, we'll create
-a [````BIMViewer````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/BIMViewer.js~BIMViewer.html), with
-a [````Server````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/server/Server.js~Server.html) through which
-it will load projects and models from the file system.
+Trong ví dụ bên dưới, chúng ta sẽ tạo một
+[````BIMViewer````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/BIMViewer.js~BIMViewer.html), với
+một [````Server````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/server/Server.js~Server.html) qua đó
+nó sẽ tải các dự án và mô hình từ hệ thống tệp.
 
-We'll configure the ````Server```` to load that data from
-the [````./app/data````](https://github.com/xeokit/xeokit-bim-viewer/tree/master/app/data) directory.
+Chúng ta sẽ cấu hình ````Server```` để tải dữ liệu đó từ
+thư mục [````./app/data````](https://github.com/xeokit/xeokit-bim-viewer/tree/master/app/data).
 
-We'll also configure our ````BimViewer```` with DOM elements to hold the four parts of its UI, which are:
+Chúng ta cũng sẽ cấu hình ````BimViewer```` của chúng ta với các phần tử DOM để chứa bốn phần của giao diện, bao gồm:
 
-1. the 3D canvas,
-2. the explorer panel containing the tree views,
-3. the toolbar,
-4. the NavCube, and
-4. the "backdrop" element, which covers everything in the UI to prevent interaction whenever the viewer is busy loading
-   a model.
+1. canvas 3D,
+2. bảng khám phá chứa các chế độ xem cây,
+3. thanh công cụ,
+4. NavCube, và
+4. phần tử "backdrop", bao phủ mọi thứ trong giao diện để ngăn chặn tương tác bất cứ khi nào trình xem đang bận tải
+   một mô hình.
 
 ````javascript
 const server = new Server({
@@ -702,19 +702,19 @@ const server = new Server({
 });
 
 const myBIMViewer = new BIMViewer(server, {
-    canvasElement: document.getElementById("myCanvas"),                // The 3D WebGL canvas
-    explorerElement: document.getElementById("myExplorer"),            // Container for the explorer panel
-    toolbarElement: document.getElementById("myToolbar"),              // Container for the toolbar
-    navCubeCanvasElement: document.getElementById("myNavCubeCanvas"),  // Canvas for the NavCube
-    busyModelBackdropElement: document.querySelector(".xeokit-busy-modal-backdrop") // Busy modal dialog backdrop element
+    canvasElement: document.getElementById("myCanvas"),                // Canvas WebGL 3D
+    explorerElement: document.getElementById("myExplorer"),            // Container cho bảng khám phá
+    toolbarElement: document.getElementById("myToolbar"),              // Container cho thanh công cụ
+    navCubeCanvasElement: document.getElementById("myNavCubeCanvas"),  // Canvas cho NavCube
+    busyModelBackdropElement: document.querySelector(".xeokit-busy-modal-backdrop") // Phần tử backdrop hộp thoại bận
 });
 ````
 
-Configuring the ````BIMViewer```` with separate places in the document to locate its parts allows us to integrate them
-more flexibly into our web page.
+Cấu hình ````BIMViewer```` với các vị trí riêng biệt trong tài liệu để định vị các phần của nó cho phép chúng ta tích hợp chúng
+linh hoạt hơn vào trang web của chúng ta.
 
-In our [````app/index.html````](https://github.com/xeokit/xeokit-bim-viewer/blob/master/app/index.html) page, the HTML
-elements look like this:
+Trong trang [````app/index.html````](https://github.com/xeokit/xeokit-bim-viewer/blob/master/app/index.html) của chúng ta, các
+phần tử HTML trông như sau:
 
 ````html
 
@@ -728,20 +728,20 @@ elements look like this:
 <canvas id="myNavCubeCanvas"></canvas>
 ````
 
-See [````app/css/style.css````](https://github.com/xeokit/xeokit-bim-viewer/blob/master/app/css/style.css) for how we've
-styled these elements.
+Xem [````app/css/style.css````](https://github.com/xeokit/xeokit-bim-viewer/blob/master/app/css/style.css) để biết cách chúng ta đã
+tạo kiểu cho các phần tử này.
 
-Also
-see [````dist/xeokit-bim-viewer.css````](https://github.com/xeokit/xeokit-bim-viewer/blob/master/dist/xeokit-bim-viewer.css)
-for the CSS styles that BIMViewer applies to the elements it creates internally.
+Cũng
+xem [````dist/xeokit-bim-viewer.css````](https://github.com/xeokit/xeokit-bim-viewer/blob/master/dist/xeokit-bim-viewer.css)
+cho các kiểu CSS mà BIMViewer áp dụng cho các phần tử nó tạo ra bên trong.
 
-## Configuring the Viewer
+## Cấu hình Trình xem
 
-With our viewer created, let's
-use [````BIMViewer#setConfigs()````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/BIMViewer.js~BIMViewer.html#instance-method-setConfigs)
-to configure it.
+Với trình xem của chúng ta đã được tầo, hãy
+sử dụng [````BIMViewer#setConfigs()````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/BIMViewer.js~BIMViewer.html#instance-method-setConfigs)
+để cấu hình nó.
 
-We'll just set the canvas background color to white:
+Chúng ta sẽ chỉ đặt màu nền canvas thành trắng:
 
 ````javascript
 myBIMViewer.setConfigs({
@@ -751,13 +751,13 @@ myBIMViewer.setConfigs({
 
 See [Viewer Configurations](#viewer-configurations) for the list of available configurations.
 
-## Querying Projects, Models and Objects
+## Truy vấn Dự án, Mô hình và Đối tượng
 
-With our viewer created and configured, let's find out what content is available.
+Với trình xem của chúng ta đã được tạo và cấu hình, hãy tìm hiểu nội dung nào có sẵn.
 
-### Getting Info on Available Projects
+### Lấy Thông tin về Các Dự án Có sẵn
 
-Let's query what projects are available.
+Hãy truy vấn những dự án nào có sẵn.
 
 ````javascript
 myBIMViewer.getProjectsInfo((projectsInfo) => {
@@ -765,15 +765,15 @@ myBIMViewer.getProjectsInfo((projectsInfo) => {
 });
 ````
 
-Internally, the viewer will
-call [````Server#getProjects()````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/server/Server.js~Server.html#instance-method-getProjects)
-to get the projects info.
+Bên trong, trình xem sẽ
+gọi [````Server#getProjects()````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/server/Server.js~Server.html#instance-method-getProjects)
+để lấy thông tin dự án.
 
-As described earlier in [Model Database](#model-database), the projects info is the JSON
-in [````./app/data/projects/index.json````](https://github.com/xeokit/xeokit-bim-viewer/tree/master/app/data/projects/index.json)
-. We'll just log that info to the console.
+Như đã mô tả trước đó trong [Cơ sở dữ liệu Mô hình](#model-database), thông tin dự án là JSON
+trong [````./app/data/projects/index.json````](https://github.com/xeokit/xeokit-bim-viewer/tree/master/app/data/projects/index.json)
+. Chúng ta sẽ chỉ ghi lại thông tin đó vào console.
 
-The projects info will look similar to:
+Thông tin dự án sẽ trông tương tự:
 
 ````json
 {
@@ -794,9 +794,9 @@ The projects info will look similar to:
 }
 ````
 
-### Getting Info on a Project
+### Lấy Thông tin về một Dự án
 
-Now we know what projects are available, we'll get info on one of those projects.
+Bây giờ chúng ta biết những dự án nào có sẵn, chúng ta sẽ lấy thông tin về một trong những dự án đó.
 
 ````javascript
 myBIMViewer.getProjectInfo("WestRiversideHospital", (projectInfo) => {
@@ -804,15 +804,15 @@ myBIMViewer.getProjectInfo("WestRiversideHospital", (projectInfo) => {
 });
 ````
 
-Internally, the viewer will
-call [````Server#getProject()````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/server/Server.js~Server.html#instance-method-getProject)
-to get that project info. Like before, we'll just log it to the console.
+Bên trong, trình xem sẽ
+gọi [````Server#getProject()````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/server/Server.js~Server.html#instance-method-getProject)
+để lấy thông tin dự án đó. Giống như trước, chúng ta sẽ chỉ ghi lại nó vào console.
 
-The project info will be the contents
-of [````./app/data/projects/WestRiversideHospital/index.json````](https://github.com/xeokit/xeokit-bim-viewer/tree/master/app/data/projects/WestRiversideHospital/index.json)
+Thông tin dự án sẽ là nội dung
+của [````./app/data/projects/WestRiversideHospital/index.json````](https://github.com/xeokit/xeokit-bim-viewer/tree/master/app/data/projects/WestRiversideHospital/index.json)
 .
 
-The project info will be similar to:
+Thông tin dự án sẽ tương tự:
 
 ````json
 {
@@ -853,41 +853,41 @@ The project info will be similar to:
 }
 ````
 
-In this project info, we have:
+Trong thông tin dự án này, chúng ta có:
 
-* **````id````** - ID of the project,
-* **````name````** - human-readable name of the project,
-* **````models````** - info on each model in this project,
-* **````viewerConfigs````** - configurations for the viewer to apply when loading the project,
-* **````viewerContent````** - which models the viewer should immediately load when loading the project, and
-* **````viewerState````** - how the viewer should set up its UI after loading the project.
+* **````id````** - ID của dự án,
+* **````name````** - tên dễ đọc của dự án,
+* **````models````** - thông tin về mỗi mô hình trong dự án này,
+* **````viewerConfigs````** - các cấu hình cho trình xem áp dụng khi tải dự án,
+* **````viewerContent````** - những mô hình nào trình xem nên tải ngay lập tức khi tải dự án, và
+* **````viewerState````** - cách trình xem nên thiết lập giao diện sau khi tải dự án.
 
-When we later load the project in section [Loading a Project](#loading_a_project), the viewer is going to pass
-the ````viewerConfigs````
-to [````BIMViewer#setConfigs()````](https://xeokit.github.io/xeokit-sdk/docs/class/src/BIMViewer.js~BIMViewer.html#instance-method-setConfigs)
-, which we described earlier in [Configuring the Viewer](#configuring-the-viewer).
+Khi chúng ta tải dự án sau trong phần [Tải một Dự án](#loading_a_project), trình xem sẽ truyền
+````viewerConfigs````
+cho [````BIMViewer#setConfigs()````](https://xeokit.github.io/xeokit-sdk/docs/class/src/BIMViewer.js~BIMViewer.html#instance-method-setConfigs)
+, mà chúng ta đã mô tả trước đó trong [Cấu hình Trình xem](#configuring-the-viewer).
 
-In the ````viewerConfigs```` we're enabling the viewer's Scalable Ambient Obscurance effect, which will create ambient
-shadows in the crevices of our models. This is an expensive effect for the viewer to render, so we've disabled it for
-the "electrical" model, which contains many long, thin wire objects that don't show the SAO effect well.
+Trong ````viewerConfigs```` chúng ta đang bật hiệu ứng Scalable Ambient Obscurance của trình xem, sẽ tạo ra các bóng tối xung quanh
+trong các rãnh của mô hình. Đây là một hiệu ứng tốn kém cho trình xem để render, nên chúng ta đã tắt nó cho
+mô hình "electrical", chứa nhiều đối tượng dây dài và mỏng không thể hiện hiệu ứng SAO tốt.
 
-### Getting Info on an Object
+### Lấy Thông tin về một Đối tượng
 
-Let's attempt to get some info on an object within one of our project's models.
+Hãy thử lấy một số thông tin về một đối tượng trong một trong các mô hình của dự án.
 
-We say "attempt" because it's up to
-the [````Server````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/server/Server.js~Server.html) to try to
-find that info for us, which might not exist.
+Chúng ta nói "thử" vì tùy thuộc vào
+[````Server````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/server/Server.js~Server.html) để thử
+tìm thông tin đó cho chúng ta, có thể không tồn tại.
 
-Internally, the viewer will
-call [````Server#getObjectInfo()````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/server/Server.js~Server.html#instance-method-getObjectInfo)
-, which will attempt to load that object info from a file.
+Bên trong, trình xem sẽ
+gọi [````Server#getObjectInfo()````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/server/Server.js~Server.html#instance-method-getObjectInfo)
+, sẽ thử tải thông tin đối tượng đó từ một tệp.
 
-If you were to substitute ````Server```` with your own implementation, your implementation might get that info from a
-data store, such as a relational database, populated with metadata for all the objects in your project's models, keyed
-to their IDs.
+Nếu bạn thay thế ````Server```` bằng triển khai của riêng bạn, triển khai của bạn có thể lấy thông tin đó từ một
+kho lưu trữ dữ liệu, chẳng hạn như cơ sở dữ liệu quan hệ, được điền với metadata cho tất cả các đối tượng trong mô hình của dự án, khóa
+với ID của chúng.
 
-We'll go ahead and assume that our ````Server```` has info an an object.
+Chúng ta sẽ tiếp tục và giả định rằng ````Server```` của chúng ta có thông tin về một đối tượng.
 
 ````javascript
 myViewer.getObjectInfo("WestRiversideHospital", "architectural", "2HaS6zNOX8xOGjmaNi_r6b",
@@ -899,13 +899,13 @@ myViewer.getObjectInfo("WestRiversideHospital", "architectural", "2HaS6zNOX8xOGj
     });
 ````
 
-If the object does not exist in the specified project and model, the method will invoke its error callback.
+Nếu đối tượng không tồn tại trong dự án và mô hình được chỉ định, phương thức sẽ gọi callback lỗi của nó.
 
-Our file system database does happen to have info for that object, stored
-in [````./app/data/projects/WestRiversideHospital/models/architectural/objects/2HaS6zNOX8xOGjmaNi_r6b.json````](https://github.com/xeokit/xeokit-bim-viewer/tree/master/app/data/projects/WestRiversideHospital/models/architectural/objects/2HaS6zNOX8xOGjmaNi_r6b.json)
+Cơ sở dữ liệu hệ thống tệp của chúng ta tình cờ có thông tin cho đối tượng đó, được lưu trữ
+trong [````./app/data/projects/WestRiversideHospital/models/architectural/objects/2HaS6zNOX8xOGjmaNi_r6b.json````](https://github.com/xeokit/xeokit-bim-viewer/tree/master/app/data/projects/WestRiversideHospital/models/architectural/objects/2HaS6zNOX8xOGjmaNi_r6b.json)
 .
 
-Since our object info exists, we'll get a result similar to this:
+Vì thông tin đối tượng của chúng ta tồn tại, chúng ta sẽ nhận được kết quả tương tự như sau:
 
 ````json
 {
@@ -918,18 +918,18 @@ Since our object info exists, we'll get a result similar to this:
 }
 ````
 
-> By now, you've probably noticed that our file system database is structured to
-> support [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) URIs, which
-> our [````Server````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/server/Server.js~Server.html) constructs
-> from the project, model and object IDs we supplied to the viewer's query methods.
+> Đến lúc này, bạn có thể đã nhận thấy rằng cơ sở dữ liệu hệ thống tệp của chúng ta được cấu trúc để
+> hỗ trợ [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) URI, mà
+> [````Server````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/server/Server.js~Server.html) của chúng ta xây dựng
+> từ các ID dự án, mô hình và đối tượng chúng ta cung cấp cho các phương thức truy vấn của trình xem.
 
-## Loading Projects and Models
+## Tải Dự án và Mô hình
 
-Let's now load some of the projects and models that we queried in the previous section.
+Bây giờ hãy tải một số dự án và mô hình mà chúng ta đã truy vấn trong phần trước.
 
-### Loading a Project
+### Tải một Dự án
 
-Let's start by loading the project we just queried info on.
+Hãy bắt đầu bằng cách tải dự án mà chúng ta vừa truy vấn thông tin.
 
 ````javascript
 myBIMViewer.loadProject("WestRiversideHospital",
@@ -941,16 +941,16 @@ myBIMViewer.loadProject("WestRiversideHospital",
     });
 ````
 
-If that succeeds, the viewer will now have two models loaded, ````"architectural"```` and ````"structure"````, since
-those are specified in the project info's ````viewerContent````.
+Nếu thành công, trình xem bây giờ sẽ có hai mô hình được tải, ````"architectural"```` và ````"structure"````, vì
+những mô hình này được chỉ định trong ````viewerContent```` của thông tin dự án.
 
-The viewer will also enable Scalable Ambient Obscurance, since that's specified by the ````saoEnabled```` property in
-the ````viewerConfigs````. The viewer will also set various other configs on itself, as specified in that section.
+Trình xem cũng sẽ bật Scalable Ambient Obscurance, vì điều đó được chỉ định bởi thuộc tính ````saoEnabled```` trong
+````viewerConfigs````. Trình xem cũng sẽ đặt nhiều cấu hình khác trên chính nó, như chỉ định trong phần đó.
 
-The viewer will also open its "Models" tab, thanks to the ````tabOpen```` property in the project
-info's ````viewerState```` section.
+Trình xem cũng sẽ mở tab "Models" của nó, nhờ vào thuộc tính ````tabOpen```` trong phần
+````viewerState```` của thông tin dự án.
 
-We can confirm that the two models are loaded by querying the IDs of the models that are currently loaded in the viewer:
+Chúng ta có thể xác nhận rằng hai mô hình đã được tải bằng cách truy vấn các ID của các mô hình hiện đang được tải trong trình xem:
 
 ````javascript
 const modelIds = myBIMViewer.getModelLoadedIds();
@@ -967,11 +967,11 @@ The result would be:
 ]
 ````
 
-### Loading a Model
+### Tải một Mô hình
 
-With our project loaded, let's load another of its models.
+Với dự án của chúng ta đã được tải, hãy tải một mô hình khác của nó.
 
-We could start by getting the IDs of all the models in our project, just to make sure the model is available:
+Chúng ta có thể bắt đầu bằng cách lấy ID của tất cả các mô hình trong dự án của chúng ta, chỉ để đảm bảo mô hình có sẵn:
 
 ````javascript
 const modelIds = myBIMViewer.getModelIds();
@@ -1001,30 +1001,30 @@ myBIMViewer.loadModel("electrical",
     });
 ````
 
-If we no longer need that model, we can unload it again:
+Nếu chúng ta không còn cần mô hình đó nữa, chúng ta có thể bỏ tải nó lại:
 
 ````javascript
 myBIMViewer.unloadModel("electrical");
 ````
 
-When we no longer need the project, unload like so:
+Khi chúng ta không còn cần dự án, bỏ tải như sau:
 
 ````javascript
 myBIMViewer.unloadProject();
 ````
 
-Note that we can only load one project at a time.
+Lưu ý rằng chúng ta chỉ có thể tải một dự án tại một thời điểm.
 
-## Controlling Viewer State
+## Điều khiển Trạng thái Trình xem
 
-[````BIMViewer````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/BIMViewer.js~BIMViewer.html) has various
-methods with which we can programmatically control the state of its UI.
+[````BIMViewer````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/BIMViewer.js~BIMViewer.html) có nhiều
+phương thức mà chúng ta có thể điều khiển trạng thái giao diện của nó bằng lập trình.
 
-Let's take a quick look at some of these methods to get an idea of what sort of UI state we can control with them. This
-won't be an exhaustive guide - see the ````BIMViewer```` class documentation for the complete list.
+Hãy xem nhanh một số phương thức này để hiểu được loại trạng thái giao diện nào chúng ta có thể điều khiển với chúng. Đây
+sẽ không phải là hướng dẫn toàn diện - xem tài liệu lớp ````BIMViewer```` để biết danh sách đầy đủ.
 
-Having loaded a couple of models in the previous section, let's open the viewer's Objects tab, which contains a tree
-view of the containment hierarchy of the objects within those models:
+Sau khi đã tải một vài mô hình trong phần trước, hãy mở tab Objects của trình xem, chứa chế độ xem cây
+của hệ thống phân cấp chứa các đối tượng trong những mô hình đó:
 
 ````javascript
 myBIMViewer.openTab("objects");
@@ -1047,21 +1047,21 @@ myBIMViewer.flyToObject("1fOVjSd7T40PyRtVEklS6X", () => { /* Done */
 
 TODO: Complete this section once API methods are finalized
 
-## Saving and Loading BCF Viewpoints
+## Lưu và Tải Điểm nhìn BCF
 
-[Bim Collaborative Format](https://en.wikipedia.org/wiki/BIM_Collaboration_Format) (BCF) is a format for managing issues
-on a BIM project. A BCF record captures the visual state of a BIM viewer, which includes the camera position, the
-visibility and selected states of the objects, and any section planes that are currently active.
+[Bim Collaborative Format](https://en.wikipedia.org/wiki/BIM_Collaboration_Format) (BCF) là một định dạng để quản lý các vấn đề
+trong dự án BIM. Một bản ghi BCF ghi lại trạng thái hình ảnh của trình xem BIM, bao gồm vị trí camera,
+trạng thái hiển thị và chọn của các đối tượng, và bất kỳ mặt phẳng cắt nào hiện đang hoạt động.
 
-A BCF record saved from one BIM viewer can be loaded into another viewer, to synchronize the visual states of both
-viewers.
+Một bản ghi BCF được lưu từ một trình xem BIM có thể được tải vào trình xem khác, để đồng bộ trạng thái hình ảnh của cả hai
+trình xem.
 
-Note that BCF viewpoints do not record which models are currently loaded. It's assumed that both the source and target
-viewers have the same models loaded.
+Lưu ý rằng các điểm nhìn BCF không ghi lại mô hình nào hiện đang được tải. Giả định rằng cả trình xem nguồn và đích
+đều có các mô hình giống nhau được tải.
 
-Use
-the [````BIMViewer#saveBCFViewpoint()````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/BIMViewer.js~BIMViewer.html#instance-method-saveBCFViewpoint)
-to save a JSON BCF record of the current view:
+Sử dụng
+[````BIMViewer#saveBCFViewpoint()````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/BIMViewer.js~BIMViewer.html#instance-method-saveBCFViewpoint)
+để lưu bản ghi BCF JSON của chế độ xem hiện tại:
 
 ````javascript
 const viewpoint = bimViewer.saveBCFViewpoint({
@@ -1069,9 +1069,9 @@ const viewpoint = bimViewer.saveBCFViewpoint({
 });
 ````
 
-Our viewpoint JSON will look similar to below. Before saving this viewpoint, we've hidden one object, selected another
-object, and created section plane to slice our model. The viewpoint also contains a PNG snapshot of the viewer's canvas,
-which we've truncated here for brevity.
+JSON điểm nhìn của chúng ta sẽ trông tương tự như bên dưới. Trước khi lưu điểm nhìn này, chúng ta đã ẩn một đối tượng, chọn một
+đối tượng khác, và tạo mặt phẳng cắt để cắt mô hình của chúng ta. Điểm nhìn cũng chứa một ảnh chụp PNG của canvas của trình xem,
+mà chúng ta đã cắt bớt ở đây cho ngắn gọn.
 
 ````
 {
@@ -1107,9 +1107,9 @@ which we've truncated here for brevity.
 }
 ````
 
-Use
-the [````BIMViewer#loadBCFViewpoint()````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/BIMViewer.js~BIMViewer.html#instance-method-loadBCFViewpoint)
-to load a JSON BCF record:
+Sử dụng
+[````BIMViewer#loadBCFViewpoint()````](https://xeokit.github.io/xeokit-bim-viewer/docs/class/src/BIMViewer.js~BIMViewer.html#instance-method-loadBCFViewpoint)
+để tải bản ghi BCF JSON:
 
 ````javascript
 bimViewer.loadBCFViewpoint(viewpoint, {
@@ -1117,15 +1117,15 @@ bimViewer.loadBCFViewpoint(viewpoint, {
 });
 ````
 
-# Customizing Viewer Style
+# Tùy chỉnh Kiểu Trình xem
 
-The [````app/index.html````](https://github.com/xeokit/xeokit-bim-viewer/blob/master/app/index.html) file for the
-standalone viewer contains CSS rules for the various viewer elements, which you can modify as required.
+Tệp [````app/index.html````](https://github.com/xeokit/xeokit-bim-viewer/blob/master/app/index.html) cho
+trình xem độc lập chứa các quy tắc CSS cho các phần tử trình xem khác nhau, mà bạn có thể sửa đổi theo yêu cầu.
 
-## Modal Busy Dialog
+## Hộp thoại Bận Modal
 
-The viewer displays a modal dialog box whenever we load a model. The dialog box has a backdrop element, which overlays
-the viewer. Whenever the dialog becomes visible, the backdrop will block interaction events on the viewer's UI.
+Trình xem hiển thị một hộp thoại modal bất cứ khi nào chúng ta tải một mô hình. Hộp thoại có một phần tử backdrop, phủ lên
+trình xem. Bất cứ khi nào hộp thoại hiển thị, backdrop sẽ chặn các sự kiện tương tác trên giao diện của trình xem.
 
 Within our [````app/index.html````](https://github.com/xeokit/xeokit-bim-viewer/blob/master/app/index.html) page, the
 main ````<div>```` is the backdrop element:
@@ -1142,8 +1142,8 @@ main ````<div>```` is the backdrop element:
 <canvas id="myNavCubeCanvas"></canvas>
 ````
 
-As defined in [````css/BIMViewer.css````](https://github.com/xeokit/xeokit-bim-viewer/blob/master/css/BIMViewer.css),
-the backdrop gets the following style, which allows the dialog to position itself correctly within the backdrop:
+Như được định nghĩa trong [````css/BIMViewer.css````](https://github.com/xeokit/xeokit-bim-viewer/blob/master/css/BIMViewer.css),
+backdrop nhận kiểu sau, cho phép hộp thoại định vị chính xác bên trong backdrop:
 
 ````css
 .xeokit-busy-modal-backdrop {
@@ -1151,44 +1151,44 @@ the backdrop gets the following style, which allows the dialog to position itsel
 }
 ````
 
-If you need to tweak CSS relating to the dialog, search for "xeokit-busy-dialog"
-within [````css/BIMViewer.css````](https://github.com/xeokit/xeokit-bim-viewer/blob/master/css/BIMViewer.css).
+Nếu bản cần điều chỉnh CSS liên quan đến hộp thoại, tìm kiếm "xeokit-busy-dialog"
+trong [````css/BIMViewer.css````](https://github.com/xeokit/xeokit-bim-viewer/blob/master/css/BIMViewer.css).
 
-## Tooltips
+## Chú thích công cụ
 
-Tooltips are not part of the core JavaScript for the viewer. Instead, viewer HTML elements are marked
-with ````data-tippy-content```` attributes that provide strings to show in their tooltips.
+Chú thích công cụ không phải là một phần của JavaScript cốt lõi cho trình xem. Thay vào đó, các phần tử HTML của trình xem được đánh dấu
+với các thuộc tính ````data-tippy-content```` cung cấp các chuỗi để hiển thị trong chú thích công cụ của chúng.
 
-For example, the *Toggle 2D/3D* button's element looks like this:
+Ví dụ, phần tử nút *Toggle 2D/3D* trông như sau:
 
 ````html
 
 <button type="button" class="xeokit-threeD xeokit-btn fa fa-cube fa-2x" data-tippy-content="Toggle 2D/3D"></button>
 ````
 
-In the [app/index.html](https://github.com/xeokit/xeokit-bim-viewer/blob/master/app/index.html) file for the standalone
-viewer, we're using [tippy.js](https://github.com/atomiks/tippyjs), which automatically creates tooltips for those
-elements.
+Trong tệp [app/index.html](https://github.com/xeokit/xeokit-bim-viewer/blob/master/app/index.html) cho trình xem độc lập,
+chúng ta đang sử dụng [tippy.js](https://github.com/atomiks/tippyjs), tự động tạo chú thích công cụ cho những
+phần tử đó.
 
-## Customizing Appearances of IFC Types
+## Tùy chỉnh Giao diện của Các Loại IFC
 
-By default, BIMViewer loads whatever object colors and opacities are in the XKT model files, without changing them.
-Sometimes, however, certain types of objects may have colors that make it hard for us to view the model.
+Mặc định, BIMViewer tải bất kỳ màu sắc và độ mờ đục nào có trong các tệp mô hình XKT, mà không thay đổi chúng.
+Tuy nhiên, đôi khi, một số loại đối tượng nhất định có thể có màu sắc khiến chúng ta khó xem mô hình.
 
-For example, in some IFC models, ````IfcPlate```` types may be used to represent windows, and those types are often given opaque
-colors. That results in the windows of our model being opaque. For this example, we can make the windows transparent
-by configuring the BIMViewer, or just that model, with a custom color or opacity, for that ````IfcPlate```` type. That would make
-all ````IfcPlate```` types transparent again. There are two ways we can do this - programmatically via ````BIMViewer.setConfigs````, or
-for each project individually, via the project's `index.json` file.
+Ví dụ, trong một số mô hình IFC, các loại ````IfcPlate```` có thể được sử dụng để đại diện cho cửa sổ, và những loại đó thường được cho màu đục.
+Điều đó dẫn đến các cửa sổ của mô hình chúng ta bị đục. Đối với ví dụ này, chúng ta có thể làm cho cửa sổ trong suốt
+bằng cách cấu hình BIMViewer, hoặc chỉ mô hình đó, với màu sắc hoặc độ mờ đục tùy chỉnh, cho loại ````IfcPlate```` đó. Điều đó sẽ làm cho
+tất cả các loại ````IfcPlate```` trong suốt trở lại. Có hai cách chúng ta có thể thực hiện điều này - bằng lập trình qua ````BIMViewer.setConfigs````, hoặc
+cho mỗi dự án riêng lẻ, qua tệp `index.json` của dự án.
 
 In the code below, we'll configure all ````IfcSpace````, ````IfcWindow````, ````IfcOpeningElement```` and ````IfcPlate```` types
 to be transparent, and while we're at it, we'll make ````IfcWindow```` types to be always blue. Note that all values are in range ````[0..1]````.
 
 ---
 
- Note that prior to v2.4, BIMViewer did change the colors and opacities of `IfcOpening`, `IfcSpace`, `IfcWindow` and `IfcPlate` by
- default. We've removed that in v2.4, because it was confusing
- and users wondered why those object types did not have the colors/opacities defined for them in the model.
+ Lưu ý rằng trước v2.4, BIMViewer đã thay đổi màu sắc và độ mờ đục của `IfcOpening`, `IfcSpace`, `IfcWindow` và `IfcPlate` theo
+ mặc định. Chúng tôi đã xóa điều đó trong v2.4, vì nó gây nhầm lẫn
+ và người dùng tự hỏi tại sao những loại đối tượng đó không có màu sắc/độ mờ đục được định nghĩa cho chúng trong mô hình.
 
 ---
 
@@ -1271,22 +1271,21 @@ the ```viewerConfigs``` in the [project ````index.json```` for that model](https
 ````
 
 
-## Localizing a Viewer
+## Địa phương hóa Trình xem
 
-The easiest way to localize a BIMViewer is by loading translation strings into its locale service, which is implemented
-by a
+Cách dễ nhất để địa phương hóa BIMViewer là tải các chuỗi dịch vào dịch vụ locale của nó, được triển khai
+bởi
 xeokit [LocaleService](https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/localization/LocaleService.js~LocaleService.html)
 .
 
-The snippet below shows how it's done, using a partial set of the translations expected by the components
-within the BIMViewer. We'll just show the translations for the faces of the NavCube. We'll also load the translations
-inline, rather than fetch them from a separate JSON file, as we would in practice.
+Đoạn mã bên dưới cho thấy cách thực hiện, sử dụng một tập hợp một phần các bản dịch được mong đợi bởi các thành phần
+trong BIMViewer. Chúng ta sẽ chỉ hiển thị các bản dịch cho các mặt của NavCube. Chúng ta cũng sẽ tải các bản dịch
+nhanh chóng, thay vì lấy chúng từ một tệp JSON riêng biệt, như chúng ta sẽ làm trong thực tế.
 
-We call translations "messages". Our metaphor is that the UI "conveys messages to the user".
+Chúng ta gọi các bản dịch là "messages" (thông điệp). Ẩn dụ của chúng ta là giao diện "truyền tải thông điệp tới người dùng".
 
-To see all the translations expected by a BIMViewer, take a look at the translations we've configured for the bundled
-BIMViewer
-demo application:  [````/app/locales/messages.js````](/app/locales/messages.js).
+Để xem tất cả các bản dịch được mong đợi bởi BIMViewer, hãy xem các bản dịch chúng tôi đã cấu hình cho ứng dụng
+BIMViewer demo đã đóng gói:  [````/app/locales/messages.js````](/app/locales/messages.js).
 
 ````javascript
 myBIMViewer.localeService.loadMessages({
@@ -1337,50 +1336,50 @@ myBIMViewer.localeService.loadMessages({
 });
 ````
 
-Once we've loaded our translations, we can switch the BIMViewer between locales like so:
+Sau khi chúng ta đã tải các bản dịch, chúng ta có thể chuyển đổi BIMViewer giữa các ngôn ngữ như sau:
 
 ````javascript
 myBIMViewer.localeService.locale = "jp";
 ````
 
-# xeokit Components Used in the Viewer
+# Các Thành phần xeokit Được Sử dụng trong Trình xem
 
-The viewer is built on various [xeokit SDK](http://xeokit.io) components and plugins that are designed to accelerate the
-development of BIM and CAD visualization apps.
+Trình xem được xây dựng trên nhiều thành phần và plugin [xeokit SDK](http://xeokit.io) được thiết kế để tăng tốc
+việc phát triển các ứng dụng trực quan hóa BIM và CAD.
 
-The table below lists the main ones used in this viewer.
+Bảng bên dưới liệt kê các thành phần chính được sử dụng trong trình xem này.
 
-| Component              | Purpose          |
+| Thành phần              | Mục đích          |
 |:-----------------------|:------------------|
-| [````Viewer````](https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html) | The WebGL-based viewer at the heart of ````BIMViewer````. |
-| [````XKTLoaderPlugin````](https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html)  | Loads model geometry and metadata. |
-| [````NavCubePlugin````](https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/NavCubePlugin/NavCubePlugin.js~NavCubePlugin.html)  | Navigation cube gizmo that allows us to rotate the scene and move the camera to look at it along a selected axis or diagonal. |
-| [````TreeViewPlugin````](https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/TreeViewPlugin/TreeViewPlugin.js~TreeViewPlugin.html)  | Implements the Objects, Classes and Storeys tree views within the explorer panel. |
-| [````SectionPlanesPlugin````](https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/SectionPlanesPlugin/SectionPlanesPlugin.js~SectionPlanesPlugin.html) | Manages interactive section planes, which are used to slice objects to reveal inner structures. |
-| [````BCFViewpointsPlugin````](https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/BCFViewpointsPlugin/BCFViewpointsPlugin.js~BCFViewpointsPlugin.html) | Saves and loads BCF viewpoints. |
-| [````ContextMenu````](https://xeokit.github.io/xeokit-sdk/docs/class/src/extras/ContextMenu/ContextMenu.js~ContextMenu.html)  | Implements the context menus for the explorer tree views and 3D canvas. |
+| [````Viewer````](https://xeokit.github.io/xeokit-sdk/docs/class/src/viewer/Viewer.js~Viewer.html) | Trình xem dựa trên WebGL ở tròng tâm của ````BIMViewer````. |
+| [````XKTLoaderPlugin````](https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/XKTLoaderPlugin/XKTLoaderPlugin.js~XKTLoaderPlugin.html)  | Tải hình học và metadata của mô hình. |
+| [````NavCubePlugin````](https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/NavCubePlugin/NavCubePlugin.js~NavCubePlugin.html)  | Công cụ hình khối điều hướng cho phép chúng ta xoay cảnh và di chuyển camera để nhìn theo trục hoặc đường chéo đã chọn. |
+| [````TreeViewPlugin````](https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/TreeViewPlugin/TreeViewPlugin.js~TreeViewPlugin.html)  | Triển khai các chế độ xem cây Objects, Classes và Storeys trong bảng khám phá. |
+| [````SectionPlanesPlugin````](https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/SectionPlanesPlugin/SectionPlanesPlugin.js~SectionPlanesPlugin.html) | Quản lý các mặt phẳng cắt tương tác, được sử dụng để cắt các đối tượng để hiển thị cấu trúc bên trong. |
+| [````BCFViewpointsPlugin````](https://xeokit.github.io/xeokit-sdk/docs/class/src/plugins/BCFViewpointsPlugin/BCFViewpointsPlugin.js~BCFViewpointsPlugin.html) | Lưu và tải các điểm nhìn BCF. |
+| [````ContextMenu````](https://xeokit.github.io/xeokit-sdk/docs/class/src/extras/ContextMenu/ContextMenu.js~ContextMenu.html)  | Triển khai các menu ngữ cảnh cho các chế độ xem cây khám phá và canvas 3D. |
 
-# Building the Viewer
+# Xây dựng Trình xem
 
-## Installing from NPM
+## Cài đặt từ NPM
 
-To install the npm package:
+Để cài đặt gói npm:
 
 ````
 npm i @xeokit/xeokit-bim-viewer
 ````
 
-## Building the Binary
+## Xây dựng Tệp nhị phân
 
-Run the command below to build the ES6 module in ````/dist/xeokit-bim-viewer.es.js````.
+Chạy lệnh bên dưới để xây dựng mô-đun ES6 trong ````/dist/xeokit-bim-viewer.es.js````.
 
 ````
 npm run build
 ````
 
-## Building the Documentation
+## Xây dựng Tài liệu
 
-To build the API documentation in ````/docs/````:
+Để xây dựng tài liệu API trong ````/docs/````:
 
 ````
 npm run docs
