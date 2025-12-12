@@ -1208,6 +1208,176 @@ const messages = {
             "showMeasurementLabels": "显示量度",
             "clearMeasurements": "删除量度"
         }
+    },
+
+    // Vietnamese
+
+    "vi": {
+        "busyModal": {
+            "loading": "Đang tải"
+        },
+        "NavCube": {
+            "front": "Phía trước",
+            "back": "Phía sau",
+            "top": "Trên",
+            "bottom": "Dưới",
+            "left": "Trái",
+            "right": "Phải"
+        },
+        "modelsExplorer": {
+            "title": "Mô hình",
+            "loadAll": "Tải tất cả",
+            "loadAllTip": "Tải tất cả mô hình trong dự án",
+            "unloadAll": "Bỏ tải tất cả",
+            "unloadAllTip": "Bỏ tải tất cả mô hình",
+            "add": "Thêm",
+            "addTip": "Thêm mô hình"
+        },
+        "objectsExplorer": {
+            "title": "Đối tượng",
+            "showAll": "Hiện tất cả",
+            "showAllTip": "Hiện tất cả đối tượng",
+            "hideAll": "Ẩn tất cả",
+            "hideAllTip": "Ẩn tất cả đối tượng"
+        },
+        "classesExplorer": {
+            "title": "Lớp",
+            "showAll": "Hiện tất cả",
+            "showAllTip": "Hiện tất cả lớp",
+            "hideAll": "Ẩn tất cả",
+            "hideAllTip": "Ẩn tất cả lớp"
+        },
+        "storeysExplorer": {
+            "title": "Tầng",
+            "showAll": "Hiện tất cả",
+            "showAllTip": "Hiện tất cả các tầng",
+            "hideAll": "Ẩn tất cả",
+            "hideAllTip": "Ẩn tất cả các tầng"
+        },
+        "propertiesInspector": {
+            "title": "Thuộc tính",
+            "noObjectSelectedWarning": "Chưa chọn đối tượng để kiểm tra. Nhấp chuột phải hoặc chạm giữ vào đối tượng và chọn 'Xem thuộc tính' để xem thông tin ở đây.",
+            "noPropSetWarning": "Không tìm thấy thuộc tính cho đối tượng này."
+        },
+        "toolbar": {
+            "toggleExplorer": "Bật/tắt cây dự án",
+            "toggleProperties": "Bật/tắt thuộc tính",
+            "resetViewTip": "Đặt lại góc nhìn",
+            "toggle2d3dTip": "Chuyển đổi 2D/3D",
+            "togglePerspectiveTip": "Chuyển đổi phối cảnh/trực giao",
+            "viewFitTip": "Hiển thị toàn cảnh",
+            "firstPersonTip": "Chuyển đổi chế độ điều hướng người thứ nhất",
+            "hideObjectsTip": "Ẩn đối tượng",
+            "selectObjectsTip": "Chọn đối tượng",
+            "queryObjectsTip": "Truy vấn đối tượng",
+            "sliceObjectsTip": "Tạo mặt cắt",
+            "slicesMenuTip": "Menu mặt cắt",
+            "showSpacesTip": "Hiện không gian IFC",
+            "numSlicesTip": "Số lượng mặt cắt hiện có",
+            "measureDistanceTip": "Đo khoảng cách",
+            "measureAngleTip": "Đo góc",
+            "marqueeSelectTip": "Chọn vùng"
+        },
+        "canvasContextMenu": {
+            "viewFitSelection": "Hiển thị vừa vặn phần đã chọn",
+            "viewFitAll": "Hiển thị toàn bộ",
+            "hideAll": "Ẩn tất cả",
+            "showAll": "Hiện tất cả",
+            "xRayAll": "Xuyên thấu tất cả",
+            "xRayNone": "Tắt xuyên thấu",
+            "selectNone": "Bỏ chọn tất cả",
+            "resetView": "Đặt lại góc nhìn",
+            "clearSlices": "Xóa mặt cắt",
+            "measurements": "Đo lường",
+            "clearMeasurements": "Xóa đo lường",
+            "hideMeasurementAxisWires": "Ẩn trục đo",
+            "showMeasurementAxisWires": "Hiện trục đo",
+            "disableMeasurementSnapping": "Tắt bám dính",
+            "enableMeasurementSnapping": "Bật bám dính"
+        },
+        "modelsContextMenu": {
+            "loadModel": "Tải",
+            "unloadModel": "Bỏ tải",
+            "editModel": "Chỉnh sửa",
+            "deleteModel": "Xóa",
+            "loadAllModels": "Tải tất cả",
+            "unloadAllModels": "Bỏ tải tất cả",
+            "clearSlices": "Xóa mặt cắt",
+            "measurements": "Đo lường",
+            "clearMeasurements": "Xóa đo lường",
+            "hideMeasurementAxisWires": "Ẩn trục đo",
+            "showMeasurementAxisWires": "Hiện trục đo",
+            "disableMeasurementSnapping": "Tắt bám dính",
+            "enableMeasurementSnapping": "Bật bám dính"
+        },
+        "objectContextMenu": {
+            "inspectProperties": "Xem thuộc tính",
+            "viewFit": "Hiển thị vừa vặn",
+            "viewFitSelection": "Hiển thị vừa vặn phần đã chọn",
+            "viewFitAll": "Hiển thị toàn bộ",
+            "showInTree": "Hiện trong cây",
+            "hide": "Ẩn",
+            "hideOthers": "Ẩn các đối tượng khác",
+            "hideAll": "Ẩn tất cả",
+            "showAll": "Hiện tất cả",
+            "xray": "Xuyên thấu",
+            "xrayOthers": "Xuyên thấu các đối tượng khác",
+            "xrayAll": "Xuyên thấu tất cả",
+            "xrayNone": "Tắt xuyên thấu",
+            "select": "Chọn",
+            "undoSelect": "Bỏ chọn",
+            "selectNone": "Bỏ chọn tất cả",
+            "clearSlices": "Xóa mặt cắt",
+            "measurements": "Đo lường",
+            "clearMeasurements": "Xóa đo lường",
+            "hideMeasurementAxisWires": "Ẩn trục đo",
+            "showMeasurementAxisWires": "Hiện trục đo",
+            "disableMeasurementSnapping": "Tắt bám dính",
+            "enableMeasurementSnapping": "Bật bám dính"
+        },
+        "treeViewContextMenu": {
+            "inspectProperties": "Xem thuộc tính",
+            "viewFit": "Hiển thị vừa vặn",
+            "viewFitSelection": "Hiển thị vừa vặn phần đã chọn",
+            "viewFitAll": "Hiển thị toàn bộ",
+            "isolate": "Cô lập",
+            "hide": "Ẩn",
+            "hideOthers": "Ẩn các đối tượng khác",
+            "hideAll": "Ẩn tất cả",
+            "show": "Hiện",
+            "showOthers": "Hiện các đối tượng khác",
+            "showAll": "Hiện tất cả",
+            "xray": "Xuyên thấu",
+            "undoXray": "Tắt xuyên thấu",
+            "xrayOthers": "Xuyên thấu các đối tượng khác",
+            "xrayAll": "Xuyên thấu tất cả",
+            "xrayNone": "Tắt xuyên thấu tất cả",
+            "select": "Chọn",
+            "undoSelect": "Bỏ chọn",
+            "selectNone": "Bỏ chọn tất cả",
+            "clearSlices": "Xóa mặt cắt",
+            "measurements": "Đo lường",
+            "clearMeasurements": "Xóa đo lường",
+            "hideMeasurementAxisWires": "Ẩn trục đo",
+            "showMeasurementAxisWires": "Hiện trục đo",
+            "disableMeasurementSnapping": "Tắt bám dính",
+            "enableMeasurementSnapping": "Bật bám dính"
+        },
+        "sectionToolContextMenu": {
+            "slice": "Mặt cắt",
+            "clearSlices": "Xóa mặt cắt",
+            "flipSlices": "Lật mặt cắt",
+            "edit": "Chỉnh sửa",
+            "flip": "Lật",
+            "delete": "Xóa"
+        },
+        "measureContextMenu": {
+            "hideMeasurementAxisWires": "Ẩn trục đo",
+            "showMeasurementAxisWires": "Hiện trục đo",
+            "hideMeasurementLabels": "Ẩn nhãn đo",
+            "showMeasurementLabels": "Hiện nhãn đo",
+            "clearMeasurements": "Xóa đo lường"
+        }
     }
 };
 
