@@ -1,18 +1,18 @@
-# Security Policy
+# Chính sách Bảo mật
 
-## Reporting a Vulnerability
+## Báo cáo Lỗ hổng Bảo mật
 
-If you have discovered a security vulnerability in this project, please report it responsibly and privately. Do not disclose it as a public issue. This gives us time to work with you to fix the issue before public exposure, reducing the chance that the exploit will be used before a patch is released.
+Nếu bạn đã phát hiện một lỗ hổng bảo mật trong dự án này, vui lòng báo cáo một cách có trách nhiệm và riêng tư. Đừng tiết lộ nó như một vấn đề công khai. Điều này cho chúng tôi thời gian để làm việc với bạn để khắc phục vấn đề trước khi tiết lộ công khai, giảm thiểu khả năng lỗ hổng bị khai thác trước khi bản vá được phát hành.
 
-You may submit the report in the following ways:
+Bạn có thể gửi báo cáo theo các cách sau:
 
-📧 Send an email to [support@creoox.com](mailto:support@creoox.com).
+📧 Gửi email đến [support@creoox.com](mailto:support@creoox.com).
 
-ℹ️ Please provide the following information in your report:
-- A description of the vulnerability and its impact.
-- How to reproduce the issue.
-- We will try our best within reasonable efforts to get back to you as soon as possible.
+ℹ️ Vui lòng cung cấp các thông tin sau trong báo cáo của bạn:
+- Mô tả về lỗ hổng và tác động của nó.
+- Cách tái hiện vấn đề.
+- Chúng tôi sẽ cố gắng hết sức trong khả năng hợp lý để phản hồi bạn sớm nhất có thể.
 
-Alternatively, you can also use a more direct way through our [Service Desk](https://creoox.atlassian.net/servicedesk/customer/portals) to create a ticket.
+Ngoài ra, bạn cũng có thể sử dụng cách trực tiếp hơn thông qua [Bàn Dịch vụ](https://creoox.atlassian.net/servicedesk/customer/portals) của chúng tôi để tạo một phiếu yêu cầu.
 
-Thank you for your cooperation and contribution!
+Cảm ơn sự hợp tác và đóng góp của bạn!
